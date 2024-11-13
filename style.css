@@ -1,0 +1,122 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    background: #FFF;
+    font-family: "Gilroy-Bold", sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 44px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_menu_1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #f25822;
+}
+
+.nav_menu {
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+.section {
+    margin-bottom: 162px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.content {
+    max-width: 522px;
+}
+
+.content_title {
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 17px;
+}
+
+.content_text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 37px;
+}
+
+.btn_section {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+}
+
+.btn_watch {
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    background: #fff;
+}
+
+.main_img {
+}
+
+.footer {
+    padding: 47px 0;
+}
+
+.logos {    
+    display: flex;
+    justify-content: space-between;
+}
